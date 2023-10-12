@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="registrate.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <a href="hosting.html"><img src="logo.png" alt="logo"></a>
+
+    
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+            
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <form id="formulario" action="php/registrar_usuarios.php" class="form" method="post">
+        <h2 class="form_titulo">Registrate aquí</h2>
+        <div class="form_container">
+            <div class="form_group">
+                <input type="text" id="nombre" name="nombre" class="form_input" placeholder=" ">
+                <label for="nombre" class="form_label">Nombres:</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="text" id="apellidos" name="apellidos" class="form_input" placeholder=" ">
+                <label for="apellidos" class="form_label">Apellidos:</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="email" id="correo" name="correo" class="form_input" placeholder=" ">
+                <label for="correo" class="form_label">Correo:</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="text" id="telefono" name="telefono" class="form_input" placeholder=" ">
+                <label for="telefono" class="form_label">Telefono:</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="date" id="fechana" name="fechana" class="form_input" placeholder=" ">
+                <label for="fechana" class="form_label">Fecha Nacimiento:</label>
+                <span class="form_line"></span>
+            </div>
+            <input type="submit" class="form_submit" value="Registrar"> <br>
+            <p class="form_parrafo">¿Ya tiene cuenta? <a href="#" class="form_link">Inicie sesión aquí</a></p>
+        </div>
+    </form>
+
+    <footer>
+        <article class="container">
+            <section class="row">
+                <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <h3 class="h3_titulo"> TÉRMINOS Y CONDICIONES </h3>
+                    <h4>Política de compras</h4>
+                    <h4>Política de entrega </h4>
+                    <h4>Cambio y devoluciones </h4>
+                    <h4>Políticas de proteccion de datos </h4>
+                    <h4>Políticas de cookies</h4>
+                    <img src="img/libro-reclamaciones.png" alt="" class="img-fluid librito">
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <h3 class="h3_titulo"> ACERCA DE NOSOTROS </h3>
+                </section>
+                <section class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <img src="img/medios-de-pago.PNG" alt="" class="img-fluid">
+                    <br>
+                    <h3 class="h3_titulo"> CONTÁCTANOS </h3>
+                    <h4> <i class="fa-solid fa-location-dot"></i> Ubicación, Lima - Perú</h4>
+                    <h4><i class="fa-solid fa-envelope"></i> servicioalcliente@-----.pe</h4>
+                    <h4> <i class="fa-solid fa-phone"></i> (01) 4084682</h4>
+                    <h4> <i class="fa-brands fa-whatsapp"></i> +51 925 106 109</h4>
+                    <h4> <i class="fa-solid fa-clock"></i> Horario de Atención</h4>
+                    <a href="https://api.whatsapp.com/send?phone=51925106109" class="whatsapp-link">Contactar por WhatsApp</a>
+
+    <style>
+      
+        .whatsapp-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #25d366; 
+            color: #fff; 
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        
+        .whatsapp-link:hover {
+            background-color: #128c7e; 
+        }
+    </style>
+</body>
+</html>
+    
+                </section>
+        </article>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</body>
+</html>
